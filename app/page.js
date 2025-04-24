@@ -4,7 +4,7 @@ import Pixels from './home/pixels.js'
 import Precision from './home/precision.js'
 import Designs from './home/designs.js'
 import Carousel from './home/carousel.js'
-// import Bgimage from './home/bgimage.js'
+import Bgimage from './home/bgimage.js'
 // import Footer from './home/footer.js'
 
 export default function Home() {
@@ -28,9 +28,9 @@ export default function Home() {
       <div className='bg-black w-full'>
         <Carousel />
       </div>
-      {/* <div style={{ backgroundImage: `url(/images/launching.png)` }} className='bg-cover bg-center w-full h-screen'>
+      <div style={{ backgroundImage: `url(/images/launching.png)` }} className='bg-cover bg-center w-full h-screen'>
         <Bgimage />
-      </div> */}
+      </div>
       {/* <div className='bg-stone-300 w-full'>
         <Footer />
       </div> */}
