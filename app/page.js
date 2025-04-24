@@ -5,7 +5,7 @@ import Precision from './home/precision.js'
 import Designs from './home/designs.js'
 import Carousel from './home/carousel.js'
 import Bgimage from './home/bgimage.js'
-// import Footer from './home/footer.js'
+import Footer from './home/footer.js'
 
 export default function Home() {
   return (
@@ -31,9 +31,9 @@ export default function Home() {
       <div style={{ backgroundImage: `url(/images/launching.png)` }} className='bg-cover bg-center w-full h-screen'>
         <Bgimage />
       </div>
-      {/* <div className='bg-stone-300 w-full'>
+      <div className='bg-stone-300 w-full'>
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }
