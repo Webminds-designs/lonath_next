@@ -1,7 +1,7 @@
 import Header from './home/header.js'
 import Hero from './home/hero.js'
 import Pixels from './home/pixels.js'
-// import Precision from './home/precision.js'
+import Precision from './home/precision.js'
 // import Designs from './home/designs.js'
 // import Carousel from './home/carousel.js'
 // import Bgimage from './home/bgimage.js'
@@ -19,9 +19,9 @@ export default function Home() {
       <div className='bg-black w-full'>
         <Pixels />
       </div>
-      {/* <div className='bg-black w-full'>
+      <div className='bg-black w-full'>
         <Precision />
-      </div> */}
+      </div>
       {/* <div className='bg-stone-300 w-full'>
         <Designs />
       </div> */}
