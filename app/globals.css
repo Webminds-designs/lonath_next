@@ -1,26 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
+@plugin "daisyui";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-rapidresponse: 'RapidResponse', sans-serif;
+  --font-reviewcondensed: 'ReviewCondensed', sans-serif;
+  --font-reviewregular: 'ReviewRegular', sans-serif;
+  --font-reviewheavy: 'ReviewHeavy', sans-serif;
+  --font-figtree: 'Figtree', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 'RapidResponse';
+  src: url('/font/rapidresponse.ttf');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'ReviewCondensed';
+  src: url('/font/ReviewCondensed-Regular-Trial.otf');
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'ReviewRegular';
+  src: url('/font/Review-Regular-Trial.otf');
+}
+
+@font-face {
+  font-family: 'ReviewHeavy';
+  src: url('/font/Review-Heavy-Trial.otf');
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
