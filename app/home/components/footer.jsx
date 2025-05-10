@@ -52,7 +52,7 @@ export default function Footer() {
                         <span>VISION</span>
                     </p>
                     <p className='font-figtree text-sm xl:text-base 2xl:text-2xl text-center lg:text-right'>I’m always looking to collaborate with forward-thinking brands, startups, and creatives who value thoughtful design and bold ideas. Whether you need a digital product, a new identity, or just want to brainstorm something beautiful—this is your invitation to start.The next story starts with a conversation.</p>
-                    <Link href='/projects/#contact' className='font-reviewregular text-sm xl:text-base 2xl:text-2xl bg-black text-white text-right px-10 py-5 rounded-xl'>LET'S CREATE TOGETHER</Link>
+                    <Link href='/projects/#contact' scroll className='font-reviewregular text-sm xl:text-base 2xl:text-2xl bg-black text-white text-right px-10 py-5 rounded-xl'>LET'S CREATE TOGETHER</Link>
                 </div>
             </div>
 
