@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Creative_depth from './creative_depth'
 import { motion } from 'motion/react'

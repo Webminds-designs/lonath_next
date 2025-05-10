@@ -1,7 +1,6 @@
-"use client";
+"use client"
 import React, { useState, useEffect } from 'react';
 import HomePage from './home/page.jsx';
-import ProjectsPage from './projects/layout.jsx';
 import Preloader from './preloader.jsx';
 import { AnimatePresence } from 'motion/react';
 
