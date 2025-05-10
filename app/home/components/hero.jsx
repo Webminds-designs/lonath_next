@@ -240,7 +240,7 @@ export default function Hero() {
                         I'm Lonath Gunawardena — a UI/UX designer and visual creative focused on building intuitive, elegant digital products and memorable brand identities.
                         From mobile apps to Websites and logos, I merge strategy with creativity to help ideas take shape and come alive.
                     </p>
-                    <Link href='/projects/#contact' className='bg-black text-gray-200 font-reviewcondensed flex items-center justify-center px-8 py-4 md:px-10 md:py-5 xl:px-12 xl:py-6 2xl:px-16 2xl:py-8 rounded-lg text-base md:text-lg xl:text-xl 2xl:text-2xl hover:cursor-pointer hover:bg-gray-800 transition-colors'>
+                    <Link href='/projects/#contact' scroll className='bg-black text-gray-200 font-reviewcondensed flex items-center justify-center px-8 py-4 md:px-10 md:py-5 xl:px-12 xl:py-6 2xl:px-16 2xl:py-8 rounded-lg text-base md:text-lg xl:text-xl 2xl:text-2xl hover:cursor-pointer hover:bg-gray-800 transition-colors'>
                         LET'S COLLABORATE
                     </Link>
                 </div>
