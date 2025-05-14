@@ -65,6 +65,13 @@ export default function Footer() {
                 <p>UI/UX · BRANDING · GRAPHIC DESIGN</p>
                 {/* <p>lk.gcm29@gmail.com</p> */}
             </div>
+
+            {/* copy right */}
+            <div className='flex flex-col lg:flex-row justify-center font-reviewregular text-xs md:text-sm xl:text-lg 2xl:text-xl text-center mt-5 lg:mt-10 text-neutral-600'>
+                <p>© {new Date().getFullYear()} Lonath Gunawardena. All rights reserved.</p>
+                <p className="hidden lg:block">|</p>
+                <p>Powered by WebMinds</p>
+            </div>
             
         </div>
     )

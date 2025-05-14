@@ -30,7 +30,7 @@ export default function layout() {
       <DiagonAlley />
       <DroneLab />
       <Visuals />
-      <Carousel />
+      {/* <Carousel /> */}
       <LetsTalk />
       <Footer />
     </div>
